@@ -38,16 +38,18 @@
 
   - Listing-ul sarcinei :
 
-   - _Autentificarea cu date corecte._
-   - _Analiza cererilor trimise catre server (cerere de tip POST)._
-   - _Metoda HTTP utilizata pentru a trimite cererea (metoda POST)._
-   - ![ScreenshotDescriptiv1](/imagini/photo1.jpg)
-   - _Antenturi trimise in cerere._
-   - ![ScreenshotDescriptiv2](/imagini/photo2.jpg)
-   - _Parametri cerere._
-   - ![ScreenshotDescriptiv3](/imagini/photo3.jpg)
-   - _Cod de stare returnat de server (200 OK)._
-   - _Antenturi trimise in raspuns._
-   - ![ScreenshotDescriptiv4](/imagini/photo4.jpg)
+    - _Autentificarea cu date corecte._
+    - _Analiza cererilor trimise catre server (cerere de tip POST)._
+    - _Metoda HTTP utilizata pentru a trimite cererea (metoda POST)._
+    - ![ScreenshotDescriptiv1](/imagini/photo1.jpg)
+    - _Antenturi trimise in cerere._
+    - ![ScreenshotDescriptiv2](/imagini/photo2.jpg)
+    - _Parametri cerere._
+    - ![ScreenshotDescriptiv3](/imagini/photo3.jpg)
+    - _Cod de stare returnat de server (200 OK)._
+    - _Antenturi trimise in raspuns._
+    - ![ScreenshotDescriptiv4](/imagini/photo4.jpg)
+
+    
 
 
