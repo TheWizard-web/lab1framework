@@ -2,7 +2,7 @@
 
 ## Sarcini laborator
 
-### Sarcina 1
+### Sarcina 1. Analiza cererilor HTTP
 
 1. Accesați site-ul http://sandbox.usm.md/login.
   - Rezultat
@@ -50,6 +50,37 @@
     - _Antenturi trimise in raspuns._
     - ![ScreenshotDescriptiv4](/imagini/photo4.jpg)
 
-    
+### Sarcina 2. Crearea cererilor HTTP 
 
+1. Scrieți o cerere de tip GET către server la adresa http://sandbox.com, indicând în antetul User-Agent numele și prenumele dvs.
+
+2. Scrieți o cerere de tip POST către server la adresa http://sandbox.com/cars, indicând în corpul cererii următorii parametri:
+
+   - `make: Toyota`
+   - `model: Corolla`
+   - `year: 2020`
+
+3. Scrieți o cerere de tip PUT către server la adresa http://sandbox.com/cars/1, indicând în antetul User-Agent numele și prenumele dvs., în antetul Content-Type valoarea application/json, iar în corpul cererii următorii parametri: 
+    
+  - `json { "make": "Toyota", "model": "Corolla", "year": 2021 }`
+   
+4.  Scrieți unul dintre posibilele răspunsuri ale serverului la cererea anterioară. 
+
+http POST /cars HTTP/1.1 Host: sandbox.com Content-Type: application/json User-Agent: John Doe model=Corolla&make=Toyota&year=2020 
+
+Presupuneți situațiile în care serverul poate returna codurile de stare HTTP 200, 201, 400, 401, 403, 404, 500.
+
+5. Scrieți o cerere de tip DELETE la alegerea dvs. și să explicați de ce, în acest caz, este potrivit să utilizați metoda DELETE.
+
+### Sarcina 3. Sarcina Suplimentara. HTTP_Quest
+
+1. Trimiteți o cerere de tip POST către server la adresa http://sandbox.usm.md/quest, indicând în antetul User-Agent numele și prenumele dvs. 
+
+(De exemplu, User-Agent: John Doe). 
+
+http POST /quest HTTP/1.1 Host: sandbox.usm.md User-Agent: John Doe curl: bash curl -X POST http://sandbox.usm.md/quest -H "User-Agent: John Doe"
+
+2. Urmați instrucțiunile de pe server, îndeplinindu-le în ordine.
+
+3. La finalul quest-ului, vi se va afișa un cuvânt secret, pe care va trebui să-l includeți în raport.
 
