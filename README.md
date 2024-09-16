@@ -5,6 +5,9 @@
 ### Sarcina 1
 
 1. Accesați site-ul http://sandbox.usm.md/login.
-  - Rezulat
-![screenshot1](/imagini/rasp1.jpg)
+  - Rezultat
+![Accesare site](/imagini/rasp1.jpg)
 
+2. Deschideți fila Network în instrumentele pentru dezvoltatori ale browserului.
+  - Rezultat
+  ![Fila Network](/imagini/rasp2.jpg)
