@@ -53,16 +53,29 @@
 ### Sarcina 2. Crearea cererilor HTTP 
 
 1. Scrieți o cerere de tip GET către server la adresa http://sandbox.com, indicând în antetul User-Agent numele și prenumele dvs.
+   `curl -X GET http://sandbox.com  -H "User-Agent: Raileanu Felicia"`
+   - "-X" _seteaza metoda cererii_
+   - "-H" _seteaza un antent_
+   ![cerere de tip GET](/imagini/sarcina2a.jpg)
 
 2. Scrieți o cerere de tip POST către server la adresa http://sandbox.com/cars, indicând în corpul cererii următorii parametri:
 
    - `make: Toyota`
    - `model: Corolla`
    - `year: 2020`
+   - rezultat:
+
+   `curl -X POST http://sandbox.com/cars -H "Content-Type: application/x-www-form-urlencoded" -d "make=Toyota" -d "model=Corolla" -d "year=2020"`
+   - "-d" _trimite date in corpul cererii_
+   ![cerere de tip POST](/imagini/sarcina2b.jpg)
 
 3. Scrieți o cerere de tip PUT către server la adresa http://sandbox.com/cars/1, indicând în antetul User-Agent numele și prenumele dvs., în antetul Content-Type valoarea application/json, iar în corpul cererii următorii parametri: 
     
-  - `json { "make": "Toyota", "model": "Corolla", "year": 2021 }`
+   - `json { "make": "Toyota", "model": "Corolla", "year": 2021 }`
+
+   - rezultat:
+
+   ``
    
 4.  Scrieți unul dintre posibilele răspunsuri ale serverului la cererea anterioară. 
 
