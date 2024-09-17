@@ -118,3 +118,5 @@ Content-Type: text/html
 
   ![Cuvant secret](/imagini/sarcina3d.jpg)
 
+ - Cuvantul secret este :_Oy0GGgAoDRBsJxEYDEIALUJEVA==_ 
+
