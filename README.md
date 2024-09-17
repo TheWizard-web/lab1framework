@@ -81,7 +81,7 @@
 
  - Codul de stare 404
 
-  ```
+```
   HTTP/1.1 400 Bad Request
 Content-Type: text/html
 
@@ -95,19 +95,26 @@ Content-Type: text/html
   </body>
 </html>
 
-  ```
+```
+ - _În acest exemplu, serverul returnează un cod de stare 400 și un mesaj simplu care indică că cererea conține date invalide. Într-un scenariu real, mesajul ar putea fi mai detaliat și ar oferi informații specifice despre eroarea întâlnită._
 
 5. Scrieți o cerere de tip DELETE la alegerea dvs. și să explicați de ce, în acest caz, este potrivit să utilizați metoda DELETE.
+
+ - Cererea de tip DELETE
+
+ `curl -X DELETE http://sandbox.com/cars/1  `
 
 ### Sarcina 3. Sarcina Suplimentara. HTTP_Quest
 
 1. Trimiteți o cerere de tip POST către server la adresa http://sandbox.usm.md/quest, indicând în antetul User-Agent numele și prenumele dvs. 
 
-(De exemplu, User-Agent: John Doe). 
-
-http POST /quest HTTP/1.1 Host: sandbox.usm.md User-Agent: John Doe curl: bash curl -X POST http://sandbox.usm.md/quest -H "User-Agent: John Doe"
+ ![Cerere de tip POST](/imagini/sarcina3a.jpg)
 
 2. Urmați instrucțiunile de pe server, îndeplinindu-le în ordine.
+ ![Cerere de tip PUT](/imagini/sarcina3b.jpg)
+ ![Cerere de tip GET](/imagini/sarcina3c.jpg)
 
 3. La finalul quest-ului, vi se va afișa un cuvânt secret, pe care va trebui să-l includeți în raport.
+
+  ![Cuvant secret](/imagini/sarcina3d.jpg)
 
