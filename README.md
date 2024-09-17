@@ -79,7 +79,23 @@
 
 `http POST /cars HTTP/1.1 Host: sandbox.com Content-Type: application/json User-Agent: John Doe model=Corolla&make=Toyota&year=2020` 
 
-Presupuneți situațiile în care serverul poate returna codurile de stare HTTP 200, 201, 400, 401, 403, 404, 500.
+ - Codul de stare 404
+
+  ```
+  HTTP/1.1 400 Bad Request
+Content-Type: text/html
+
+<html>
+  <head>
+    <title>Bad Request</title>
+  </head>
+  <body>
+    <h1>Bad Request</h1>
+    <p>Your request contains invalid data.</p>
+  </body>
+</html>
+
+  ```
 
 5. Scrieți o cerere de tip DELETE la alegerea dvs. și să explicați de ce, în acest caz, este potrivit să utilizați metoda DELETE.
 
